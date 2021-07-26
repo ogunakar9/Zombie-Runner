@@ -919,6 +919,42 @@ MonoBehaviour:
   damage: 30
   muzzleFlash: {fileID: 1382420236}
   hitEffect: {fileID: 3804698322385776265, guid: 6218b6b7919d840cda6c061f59e60c2c, type: 3}
+  ammoSlot: {fileID: 304885135}
+--- !u!1 &304885125 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: c6453f8e1f814744d8b94e5a6d1f9942, type: 3}
+  m_PrefabInstance: {fileID: 304885121}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &304885126
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304885125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49878f4b2bd004e28a3a192555dc4a2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fpsCamera: {fileID: 304885123}
+  zoomedOutFOV: 60
+  zoomedInFOV: 20
+  sensZoomedOut: 2
+  sensZoomedIn: 1
+--- !u!114 &304885135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 304885125}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b59e3e2659804602ae59d411dfe4eb1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ammoAmount: 10
 --- !u!1001 &411406806
 PrefabInstance:
   m_ObjectHideFlags: 0
